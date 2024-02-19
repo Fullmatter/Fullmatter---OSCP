@@ -1,0 +1,15 @@
+#Podemos localizar puertos internos abiertos consultando el
+
+/proc/net/tcp
+
+
+los caracteres detrás del : son los puertos.
+
+si cogemos y utilizamos python3, introducimos el hexadecimal y lo traduce
+0x<nombre obtenido>
+
+
+
+#observamos la red de la máquina
+/proc/net/fib_trie
+

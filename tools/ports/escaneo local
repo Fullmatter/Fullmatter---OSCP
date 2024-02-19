@@ -1,0 +1,3 @@
+netstat -na -p tcp
+
+lsof -i:puerto

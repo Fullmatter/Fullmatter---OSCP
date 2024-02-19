@@ -1,0 +1,3 @@
+rbash ---- cuando entramos a la rbash no podemos ejecutar nada, casualmente podemos ejecutar comandos antes de hacer la conexión por ssh
+
+ssh user@ip command

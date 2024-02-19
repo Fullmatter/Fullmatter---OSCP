@@ -1,0 +1,6 @@
+poner un enlace simbólico.
+En el pie de página debería de estar
+
+ln -s -f /root/root.txt fichero_exploited
+
+

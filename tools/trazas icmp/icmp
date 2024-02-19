@@ -1,0 +1,3 @@
+tcpdump -i tun0 icmp -n
+
+tun0 sustituye por tu tarjeta de red

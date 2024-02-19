@@ -1,0 +1,9 @@
+busca un directorio wp/wp-content/plugins
+o content/plugins
+
+----------
+si no ves nada es porque el listing está desactivado
+
+haz un wfuzz con el diccionario de wp-plugins a ver que encuentras
+
+si el plugin está desactualizado da igual al versión del wordpress

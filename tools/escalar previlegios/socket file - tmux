@@ -1,0 +1,19 @@
+fichero que nos permite ejecutar código como si fuesemo otro usuario.
+Esto ha debido de ser previamente implementado, sino no se va a poder hacer..
+Si te fijas en el / normalmente está /dev, pero hay uno nuevo llamado /.devs
+
+ejemplo:
+
+en el directorio del usuario hacemos un ls -la:
+    hype@Valentine:~$ cat .bash_history 
+    tmux -S /.devs/dev_sess 
+
+
+observamos que el usuario tiene un socket file habilitado, vemos si tenemos permiso s:
+
+
+ls -ltr /.devs/dev_sess
+srw-rw---- 1 root hype 0 Aug  1 13:37 /.devs/dev_sess
+
+
+Podemos acceder ejecutandolo!!!

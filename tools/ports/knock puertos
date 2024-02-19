@@ -1,0 +1,1 @@
+for port in 80 443 22; do echo "GET /" | nc -v -n -w 1 10.10.10.10 $port; done

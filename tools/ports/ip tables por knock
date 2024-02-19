@@ -1,0 +1,5 @@
+#a lo mejor hay una regla de firewall que solo abre un puerto si se sigue una secuencia:
+
+/etc/knockd.conf
+Si hay un fichero así dentro de la máquina objetivo, al lanzar paquetes contra esa máquina en el orden indicado nos abrirá el puerto
+

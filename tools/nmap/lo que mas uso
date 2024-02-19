@@ -1,0 +1,23 @@
+sudo nmap -p- --open --min-rate 5000 -n -Pn ip
+sudo nmap -sCV -p<puertos -p1,22,80> <ip>
+
+
+------si la cosa se tensa, busca los scripts de nmap----
+
+
+locate .ns | xargs grep "categories" | grep -oP '".*?"' | sort -u
+
+        "auth"
+        "broadcast"
+        "brute"
+        "default"
+        "discovery"
+        "dos"
+        "exploit"
+        "external"
+        "fuzzer"
+        "intrusive"
+        "malware"
+        "safe"
+        "version"
+        "vuln"

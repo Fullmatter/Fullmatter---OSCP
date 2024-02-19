@@ -1,0 +1,3 @@
+server :python3 http.server 80
+
+esclavo: wget ip/recurso
